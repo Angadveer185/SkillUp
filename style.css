@@ -493,7 +493,142 @@ section{
 .playlist .row .col .details .date span{
     color: var(--light-color)
 }
-
+.videos-container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.videos-container .box-container .box{
+    position: relative;
+    border-radius: .5rem;
+    padding: 2rem;
+    background-color: var(--white);
+}
+.videos-container .box-container .box img{
+    height: 20rem;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+.videos-container .box-container .box i{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    right: 2rem;
+    height: 20rem;
+    background-color: rgba(0,0,0,.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    color: #fff;
+    border-radius: .5rem;
+    display: none;
+}
+.videos-container .box-container .box:hover i{
+    display: flex;
+}
+.videos-container .box-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin-top: 1rem;
+}
+.videos-container .box-container .box:hover h3{
+    color: var(--main-color);
+}
+.watch-video .video-details{
+    background-color: var(--white);
+    padding: 2rem;
+}
+.watch-video .video-details .video{
+    width: 100%;
+    border-radius: .5rem;
+}
+.watch-video .video-details .title{
+    font-size: 2rem;
+    color: var(--black);
+    padding: 1.5rem 0;
+}
+.watch-video .video-details .info{
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: var(--border);
+}
+.watch-video .video-details .info p{
+    font-size: 1.6rem;
+}
+.watch-video .video-details .info p i{
+    margin-right: 1rem;
+    color: var(--main-color);
+}
+.watch-video .video-details .info p span{
+    color: var(--light-color);
+}
+.watch-video .video-details .tutor{
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.watch-video .video-details .tutor img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.watch-video .video-details .tutor h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: .2rem;
+}
+.watch-video .video-details .tutor span{
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+.watch-video .video-details .flex{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+.watch-video .video-details .flex a{
+    margin-top: 0;
+}
+.watch-video .video-details .flex button{
+    background-color: var(--light-bg);
+    cursor: pointer;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+    border-radius: .5rem;
+}
+.watch-video .video-details .flex button i{
+    color: var(--black);
+    margin-right: 1rem;
+}
+.watch-video .video-details .flex button span{
+    color: var(--light-color);
+}
+.watch-video .video-details .flex button:hover{
+    background-color: var(--black);
+}
+.watch-video .video-details .flex button:hover i{
+    color: var(--white);
+}
+.watch-video .video-details .flex button:hover span{
+    color: var(--white);
+}
+.watch-video .video-details .description{
+    padding-top: 2rem;
+}
+.watch-video .video-details .description p{
+    line-height: 1.5;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    white-space: pre-line;
+}
 .contact .row{
     display: flex;
     align-items: center;
