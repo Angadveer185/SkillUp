@@ -3,6 +3,12 @@
 Welcome to *SkillUp*, an all-in-one e-learning platform designed to make education accessible, interactive, and enjoyable for everyone! Whether you're brushing up on your skills or learning something new, SkillUp has got you covered. 💻📚
 
 ---
+## 📑 Table of Contents
+- [Features Overview](#-features-overview)
+- [Team Collaboration](#-team-collaboration)
+- [How to Fork & Update the Project](#-how-to-fork--update-the-project)
+- [Screenshots](#-screenshot-of-project)
+- [Contact](#-contact)
 
 ## 🌐 Features Overview
 
@@ -15,29 +21,14 @@ Learn about our mission, values, and how SkillUp is making a difference in the w
 ### 📚 Courses Section  
 Explore a wide variety of courses across multiple disciplines – from programming to personal development.
 
-### 📺 Playlist  
-Curated playlists of course videos to help you learn step-by-step without missing a beat.
-
-### ▶ Watch Video  
-Dive deep into each lesson with our immersive video player and supplemental content.
-
-### 👩‍🏫 Teachers Section  
-Meet our team of experienced and passionate instructors ready to guide you on your learning journey.
-
 ### 🧑‍🏫 Teacher Profile  
 Get to know each teacher personally – view their bio, courses, experience, and more.
 
 ### 📞 Contact  
 Have questions? Reach out to us through our contact page – we’d love to hear from you!
 
-### 👤 Profile Page  
-Your personalized dashboard to track your progress, favorite courses, and settings.
-
 ### 🔐 Login & Register  
 Secure authentication system to help you sign up and log in with ease.
-
-### ✏ Profile Update Page  
-Update your personal information anytime to keep your profile fresh and accurate.
 
 ---
 
@@ -56,18 +47,19 @@ Want to contribute or keep your own version updated? Follow these steps:
 
 ### 🔱 Fork the Repository
 
-1. Go to the [SkillUp repository](#) (replace with the actual URL).
+1. Go to the https://github.com/Angadveer185/SkillUp.
 2. Click the *Fork* button in the top-right corner of the page.
 3. This creates a copy of the project in your GitHub account.
 
-### 📥 Clone Your Fork
+## 📝 ScreenShot of project
+<br>
 
-bash
-git clone https://github.com/your-username/SkillUp.git
-cd SkillUp
-git add .
-git commit -m "Your descriptive commit message"
-git push origin main
+![Screenshot 2025-05-06 150159](https://github.com/user-attachments/assets/8e547416-2d71-41a5-8193-b0d9a802b42c)
+<br>
+![Screenshot 2025-05-06 144023](https://github.com/user-attachments/assets/4446f31d-8737-42e5-9a99-2518e9c1ad71)
+<br>
+![Screenshot 2025-05-06 144420](https://github.com/user-attachments/assets/0c706a87-fd23-4d92-96b1-4e884444c261)
+<br>
 
 
 ## 💬 Contact
